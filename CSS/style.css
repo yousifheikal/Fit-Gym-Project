@@ -1,0 +1,60 @@
+body {
+    background-image: url("../CSS/image/pexels-ron-lach-8744810.jpg");
+    background-size: cover;
+    background-position: center;
+    /*background-position-y: 30px;*/
+    /*background-color: #00f0ff;*/
+    margin-top: 50px;
+    /*height: 100%;*/
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 450px;
+    margin: 0px auto;
+    padding: 100px;
+    -webkit-box-shadow: -1px 8px 25px 4px rgba(255, 165, 0, 0.3);
+    -moz-box-shadow: -1px 8px 25px 4px rgba(255, 165, 0, 0.3);
+    box-shadow: -1px 8px 25px 4px rgba(255, 165, 0, 0.3);
+}
+
+.img_container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+.register_button{
+    background-color: orange;
+    color: white;
+}
